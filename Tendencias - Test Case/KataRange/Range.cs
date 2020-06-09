@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -76,7 +76,6 @@ namespace KataRange
 
         public bool overlapsRange(string range, string comparedRange)
         {
-
             string[] arrRange = range.Split(this.separator,
                                                    StringSplitOptions.RemoveEmptyEntries);
 
@@ -88,7 +87,6 @@ namespace KataRange
                 }
             }
             return false;
-
         }
 
         public bool equals(string range, string compared)
@@ -101,21 +99,17 @@ namespace KataRange
                 return true;
             }
             return false;
-           
         }
 
-        public bool notequals(string range, string compared)
+        public bool notEquals(string range, string compared)
         {
-
             string[] arrRange = range.Split(this.separator,
                                                    StringSplitOptions.RemoveEmptyEntries);
-            if (range != compared)
+            if(range == compared)
             {
                 return true;
             }
             return false;
-
         }
-
     }
 }
