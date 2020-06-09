@@ -20,8 +20,6 @@ This 	Parameters 	Output
 //Fail
 This 	Parameters 	Output
 {8,12}	"{8,12}" 	False
-This 	Parameters 	Output
-//Completar
 
 3. doesNotContains(points) : bool - //Example taken for this [2,4]
 //Succed
@@ -32,8 +30,6 @@ This 	Parameters 		Output
 //Fail	
 This 	Parameters 	Output
 [2,4]	"-1.10" 	False
-This 	Parameters 	Output
-//Completar
 
 4. getAllPoints() : int[] - 
 //Succed
@@ -44,8 +40,6 @@ This 	Parameters 		Output
 //Fail	
 This 	Parameters 	Output
 [2,10]	"[210]" 	Please dont forget to use the , betweeb tge rabge
-This 	Parameters 	Output
-//Completar
 
 5. containsRange(Range) : bool - based on input (1,10)
 //Succed
@@ -56,8 +50,6 @@ This 	Parameters 		Output
 //Fail	
 This 	Parameters 	Output
 {2,10}	"{2,10}" 	False
-This 	Parameters 	Output
-//Completar
 
 6. doesNotContainRange(Range) : bool - baseed on input (1,10)
 //Succed
@@ -68,8 +60,6 @@ This 	Parameters 		Output
 //Fail	
 This 	Parameters 	Output
 {2,10}	"{2,10}" 	False
-This 	Parameters 	Output
-//Completar
 
 7. endPoints() : int[] -based on input [5,11]
 //Succed
@@ -80,8 +70,6 @@ This 	Parameters 		Output
 //Fail	
 This 	Parameters 	Output
 [1,2]	"[1,2]" 	Out of range
-This 	Parameters 	Output
-//Completar
 
 8. overlapsRange(Range) : bool - based on intput [2,10)
 //Succed
@@ -92,8 +80,6 @@ This 	Parameters 		Output
 //Fail	
 This 	Parameters 	Output
 [1,2]	"[1,2]" 	Out of range
-This 	Parameters 	Output
-//Completar
 
 9. doesNotOverlapRange(Range) : bool - base on intput [2,5]
 //Succed
@@ -104,8 +90,6 @@ This 	Parameters 		Output
 //Fail	
 This 	Parameters 	Output
 [2,5]	"[2,5]" 	False
-This 	Parameters 	Output
-//Completar
 
 10. equals(Range) : bool - based on input [5,11)
 This 	Parameters 		Output
@@ -115,8 +99,6 @@ This 	Parameters 		Output
 //Fail	
 This 	Parameters 	Output
 [7,5)	"[7,5)" 	False
-This 	Parameters 	Output
-//Completar
 
 11. notEquals(Range) : bool - based on input [10,25]
 This 	Parameters 		Output
@@ -126,4 +108,3 @@ This 	Parameters 		Output
 //Fail	
 This 	Parameters 	Output
 [10,25]	"[10,25]" 	False
-This 	Parameters 	Output
