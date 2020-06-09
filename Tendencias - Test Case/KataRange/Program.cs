@@ -21,13 +21,13 @@ namespace KataRange
             //[2,7) contains {3,5}
             var containerZero = range.ContainsRange("[2,7)", "[3,5]");
             Console.WriteLine(containerZero);
-            //[2,6) contains {6,6}
+            //[2,7) contains {6,6}
             var containerOne = range.ContainsRange("[2,7)", "{6,6}");
             Console.WriteLine(containerOne);
             //[2,4) doesn’t contain {7, 1 ,5}
             var containerTwo = range.ContainsRange("[2,4)", "{7,1,5}");
             Console.WriteLine(containerTwo);
-            //[2,4) doesn’t contain [10,-2,3)
+            //[2,4) doesn’t contain [10,-2,7)
             var containerThree = range.ContainsRange("[2,4)", "{10,-2,7}");
             Console.WriteLine(containerThree);
 
