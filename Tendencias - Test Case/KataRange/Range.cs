@@ -76,6 +76,7 @@ namespace KataRange
 
         public bool overlapsRange(string range, string comparedRange)
         {
+
             string[] arrRange = range.Split(this.separator,
                                                    StringSplitOptions.RemoveEmptyEntries);
 
@@ -87,6 +88,7 @@ namespace KataRange
                 }
             }
             return false;
+
         }
 
         public bool equals(string range, string compared)
@@ -99,6 +101,7 @@ namespace KataRange
                 return true;
             }
             return false;
+           
         }
 
         public bool notEquals(string range, string compared)
@@ -110,6 +113,8 @@ namespace KataRange
                 return true;
             }
             return false;
+           
         }
+
     }
 }
