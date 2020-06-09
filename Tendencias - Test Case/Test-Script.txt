@@ -4,24 +4,24 @@ Based on input [2,10]
 This 	Parameters 	Output
 [2,10)	"[2,10)" 	23456789
 This 	Parameters 	Output
-[3,7)	"[3,7)" 	3456
+[3,7]	"[3,7]" 	34567
 //Fail
 This 	Parameters 	Output
 [2,10*	"[2,10*" 	Please use Brackets [] or Parenthesis ()
 This 	Parameters 	Output
-(3,7	"[2,7" 		Please dont forget to use Brackets [] or Parenthesis()
+(3,7	"[2,7" 		Please use Brackets [] or Parenthesis ()
 
-2. contains(points) : bool //Example taken for this [2,7]
+2. contains(points) : bool //Example taken for this [2,7)
 //Succed
 This 	Parameters 	Output
-[3,5)	"[3,5)" 	True
+{3,5}	"{3,5}" 	True
 This 	Parameters 	Output
-[6,6]	"[6,6]" 	True
+{6,6}	"{6,6}" 	True
 //Fail
 This 	Parameters 	Output
-[8,12]	"[8,12]" 	False
+{8,12}	"{8,12}" 	False
 This 	Parameters 	Output
-//Completar
+
 
 3. doesNotContains(points) : bool - //Example taken for this [2,4]
 //Succed
@@ -33,7 +33,7 @@ This 	Parameters 		Output
 This 	Parameters 	Output
 [2,4]	"-1.10" 	False
 This 	Parameters 	Output
-//Completar
+
 
 4. getAllPoints() : int[] - //Example taken for this [2,17]
 //Succed
@@ -45,7 +45,7 @@ This 	Parameters 		Output
 This 	Parameters 	Output
 [2,10]	"[210]" 	Please dont forget to use the , betweeb tge rabge
 This 	Parameters 	Output
-//Completar
+
 
 5. containsRange(Range) : bool - based on input (1,10)
 //Succed
@@ -57,7 +57,7 @@ This 	Parameters 		Output
 This 	Parameters 	Output
 {2,10}	"{2,10}" 	False
 This 	Parameters 	Output
-//Completar
+
 
 6. doesNotContainRange(Range) : bool - baseed on input (1,10)
 //Succed
@@ -69,7 +69,7 @@ This 	Parameters 		Output
 This 	Parameters 	Output
 {2,10}	"{2,10}" 	False
 This 	Parameters 	Output
-//Completar
+
 
 7. endPoints() : int[] -based on input [5,11]
 //Succed
@@ -81,19 +81,19 @@ This 	Parameters 		Output
 This 	Parameters 	Output
 [1,2]	"[1,2]" 	Out of range
 This 	Parameters 	Output
-//Completar
+
 
 8. overlapsRange(Range) : bool - based on intput [2,10)
 //Succed
 This 	Parameters 		Output
-[2,10)	"[2,10)" 		True
+[1,8)	"[1,8)" 		True
 This 	Parameters 		Output
-[2,10)	"[2,15)" 		True
+[1,5)	"[1,5)" 		True
 //Fail	
 This 	Parameters 	Output
 [1,2]	"[1,2]" 	Out of range
 This 	Parameters 	Output
-//Completar
+
 
 9. doesNotOverlapRange(Range) : bool - base on intput [2,5]
 //Succed
@@ -105,7 +105,7 @@ This 	Parameters 		Output
 This 	Parameters 	Output
 [2,5]	"[2,5]" 	False
 This 	Parameters 	Output
-//Completar
+
 
 10. equals(Range) : bool - based on input [5,11)
 This 	Parameters 		Output
@@ -116,7 +116,7 @@ This 	Parameters 		Output
 This 	Parameters 	Output
 [7,5)	"[7,5)" 	False
 This 	Parameters 	Output
-//Completar
+
 
 11. notEquals(Range) : bool - based on input [10,25]
 This 	Parameters 		Output
@@ -127,4 +127,3 @@ This 	Parameters 		Output
 This 	Parameters 	Output
 [10,25]	"[10,25]" 	False
 This 	Parameters 	Output
-//Completar
