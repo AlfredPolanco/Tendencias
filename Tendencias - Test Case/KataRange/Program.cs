@@ -149,8 +149,6 @@ Equals
             Console.WriteLine("");
             Console.WriteLine("[10,25] notEquals = [10,25)");
             Console.WriteLine(notEquals);
-
-
         }
 
     }
